@@ -18,5 +18,5 @@ for i = 1:numImages
     subplot(numImages, 2, (i-1)*2 + 2);
     text(0.5, 0.5, ['Classification: ', string(predictions(i))], ...
         'FontSize', 12, 'HorizontalAlignment', 'center');
-    axis off; % Turn off the axis for the text plot
+    axis off; 
 end
